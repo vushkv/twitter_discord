@@ -1,22 +1,22 @@
 producer_config = {
-    'bootstrap.servers': '193.168.49.120:9092',
+    'bootstrap.servers': '',
 } #продюсер Кафка
 
 consumer_config = {
-    'bootstrap.servers': '193.168.49.120:9092',
+    'bootstrap.servers': '',
     'group.id': 'mygroup',
     'auto.offset.reset': 'earliest'
 } # консьюмер Кафка
 
 webdriver_path = './venv/bin/chromedriver' #путь до вебдрайвера
 
-twitter_username = 'wtpblexw8676' #логин твиттер
-twitter_password = 'hosmqzxhX7526' #пароль твиттер
+twitter_username = '' #логин твиттер
+twitter_password = '' #пароль твиттер
 
-discord_username = 'v.ushkv@yandex.ru' #логин дискорд
-discord_password = 'Trier199502' #пароль дискорд
-discord_server = '1218275799849898085/1218285653087879258' #сервер дискорд
-list_roles = ['Команда-А', '123', 'Design'] #список ролей на сервере
+discord_username = '' #логин дискорд
+discord_password = '' #пароль дискорд
+discord_server = '' #сервер дискорд
+list_roles = [''] #список ролей на сервере
 
 following_twitter = 'validate-twitter-subscription' #топик для запроса проверки подписки на твиттер
 following_discord = 'validate-discord-subscription' #топик для запроса проверки наличия на сервере дискорд
