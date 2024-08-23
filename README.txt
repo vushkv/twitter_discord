@@ -1,9 +1,9 @@
 producer_config = {
-    'bootstrap.servers': '193.168.49.120:9092',
+    'bootstrap.servers': '',
 } #продюсер Кафка
 
 consumer_config = {
-    'bootstrap.servers': '193.168.49.120:9092',
+    'bootstrap.servers': '',
     'group.id': 'mygroup',
     'auto.offset.reset': 'earliest'
 } # консьюмер Кафка
