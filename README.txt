@@ -1,3 +1,6 @@
+pip install selenium
+pip install confluent_kafka
+
 producer_config = {
     'bootstrap.servers': '',
 } #продюсер Кафка
